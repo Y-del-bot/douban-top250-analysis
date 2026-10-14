@@ -1,0 +1,14 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 程序运行产物（保留 docs/ 下的示例）
+/豆瓣电影Top250.xlsx
+/评分分布.png
+/年份分布.png
+/简介词云.png
+/数据分析报告.html

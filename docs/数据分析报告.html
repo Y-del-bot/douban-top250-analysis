@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>豆瓣电影Top250 数据分析报告</title>
+    <style>
+        body {text-align: center; font-family: "微软雅黑"; margin: 30px; background-color: #f9f9f9;}
+        .container {background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+        h1 {color: #2E86AB;}
+        h2 {color: #6A994E; margin-top: 40px;}
+        img {margin: 10px 0; border: 1px solid #eee; max-width: 90%;}
+        p {font-size: 16px; color: #333;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>豆瓣电影Top250 数据分析可视化页面</h1>
+        <p>本页面由Python程序自动生成，整合所有统计图表与分析结果</p>
+
+        <h2>一、电影评分分布统计</h2>
+        <img src="评分分布.png" alt="评分分布图">
+
+        <h2>二、电影上映年份分布统计</h2>
+        <img src="年份分布.png" alt="年份分布图">
+
+        
+        <h2>三、电影简介关键词词云</h2>
+        <p>注：因豆瓣Top250部分电影无简介文本，词云无法生成。</p>
+        
+    </div>
+</body>
+</html>
